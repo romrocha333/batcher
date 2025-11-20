@@ -1,52 +1,39 @@
-# [![](docs/images/logo.svg)](https://kamilburda.github.io/batcher/) Batcher
+# Batcher – tradução para português (Brasil) (pt-BR)
 
-Batcher is a batch image processing plug-in for [GIMP 3](https://www.gimp.org/).
+![Insígnia de idioma](https://img.shields.io/badge/Language-Portuguese_\(BR\)-green?style=flat-square)
 
+Fork do projeto original **Batcher** para manter a tradução completa para **português (Brasil)** no GIMP 3.
 
-## What can Batcher do?
+* Repositório original: [https://github.com/kamilburda/batcher](https://github.com/kamilburda/batcher)
+* Pull Request da tradução: [https://github.com/kamilburda/batcher/pull/110](https://github.com/kamilburda/batcher/pull/110)
 
-* Convert image files to any file format provided by GIMP and third-party plug-ins
-* Export images opened in GIMP
-* Batch-edit images opened in GIMP and/or save them to the native XCF format
-* Export layers as separate images from an opened image
-* Batch-edit layers in an opened image
-* Apply any filter or plug-in during batch processing (rename, scale, ...)
-* Process only images/layers matching your criteria (ending with a suffix, visible layers, ...)
+---
 
+## Visão rápida
 
-## [Download latest release](https://github.com/kamilburda/batcher/releases/tag/1.1.1) (1.1.1, June 15, 2025)
+* Plug-in: **Batcher** (GIMP 3)
+* Versão upstream usada: **1.1.1** (15/06/2025)
+* Tradução pt-BR: **1.0.0**
+* Tradução criada em: 19/11/2025
+* Foco deste fork: apenas a **tradução pt-BR**, sempre alinhada ao upstream
 
+---
 
-## Installation and Usage
+## Arquivos de tradução
 
-See the [webpage](https://kamilburda.github.io/batcher).
+```text
+batcher/locale/pt_BR/LC_MESSAGES/
+ ├─ batcher.po  # arquivo-fonte da tradução
+ └─ batcher.mo  # arquivo compilado usado pelo GIMP
+```
 
+---
 
-## Support
+## Como sugerir melhorias
 
-You can report issues or request new features on the [GitHub Issues page](https://github.com/kamilburda/batcher/issues).
-Make sure to check the current issues first before submitting a report.
+Se encontrar algum problema na tradução (erro, termo inadequado ou inconsistência):
 
-You can also ask questions or discuss ideas related to Batcher on the [GitHub Discussions page](https://github.com/kamilburda/batcher/discussions).
+* Abra uma issue neste repositório; ou
+* Comente diretamente no PR: [https://github.com/kamilburda/batcher/pull/110](https://github.com/kamilburda/batcher/pull/110)
 
-
-## Translations
-
-To provide translations for Batcher, see [TRANSLATIONS](TRANSLATIONS.md) for instructions.
-Thank you for your contribution. 😊
-
-
-## Example screenshots
-
-![](docs/images/screenshot_dialog_convert.png)
-
-![](docs/images/screenshot_dialog_export_layers_quick.png)
-
-![](docs/images/screenshot_menu_export_selected_layers.png)
-
-![](docs/images/screenshot_action_browser_dialog.png)
-
-
-## License
-
-Batcher is licensed under the [BSD 3-Clause](LICENSE) license.
+Assim mantemos a interface do Batcher clara, consistente e natural para quem usa o GIMP em português (Brasil).
